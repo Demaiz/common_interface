@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота 9</title>
+    <link rel="icon" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href = "../index.html">
+	    <img id = "home" src = "house-icon.png" alt = "home">
+    </a>
+        <style>
+        #home {
+            height: 40px;
+			position: fixed;
+            left: 25px;
+            top: 25px;
+        }
+    </style>
+    <div id = "main">  
+        <div>
+            <h1 id = "user_name">Користувач</h1>
+            <div class="card">
+                <img src = "" alt = "user card" id = "user_card" class = "front">
+                <img src = "back.png" alt = "back of the card" class = "back">
+            </div>
+            <h1 id = "user_score">0</h1>
+        </div>  
+        <div id = "controls">
+            <h2 id = "attempt">Спроба (0/3)</h2>
+            <input type="button" id = "btn" value="Грати">
+        </div>
+        <div>
+            <h1>Комп'ютер</h1>
+            <div class="card">
+                <img src = "" alt = "computer card" id = "computer_card"  class = "front">
+                <img src = "back.png" alt = "back of the card" class = "back">
+            </div>
+            <h1 id = "computer_score">0</h1>
+        </div>
+    </div>
+        <h1 id = "winner"></h1>
+    <script src = "script.js"></script>
+</body>
+</html>

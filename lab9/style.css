@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Trebuchet MS';
+    background-image: url("background.jpg");
+    background-size: cover; 
+    color: white;
+    text-shadow: -1px -1px black, 1px -1px black, -1px 1px black, 1px 1px black;
+    min-width: 700px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+#btn{
+    background-color: rgba(14,100,209,255);
+    color: white;
+    height: 45px;
+    width: 140px;
+    border: none;
+    font-size: 21px;
+    border-radius: 12px;
+    margin: 0 9%;
+}
+
+#btn:active {
+    transform: scale(0.995);
+    background-color: rgba(14,87,209,255); 
+}
+
+#winner{
+    text-align: center;
+    font-size: 40px;
+}
+
+#controls{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    min-width: 150px;
+    justify-content: center;
+    align-items: center; 
+}
+
+img{
+  border-radius: 4px;
+}
+
+.card {
+  width: 280px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.9s;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+}
+  
+.front {
+  transform: rotateY(180deg);
+}

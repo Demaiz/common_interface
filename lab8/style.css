@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Trebuchet MS';
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;   
+}
+
+#btn{
+    background-color: rgba(14,100,209,255);
+    color: white;
+    height: 45px;
+    width: 140px;
+    border: none;
+    font-size: 21px;
+    border-radius: 12px;
+    margin: 0 9%;
+}
+
+#btn:active {
+    transform: scale(0.995);
+    background-color: rgba(14,87,209,255); 
+}
+
+.random_number{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+#winner{
+    text-align: center;
+}
+
+.counters{
+
+    justify-content: center;
+}
+
+#user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    height: 180px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.coins img {
+    height: 48px;
+}
+
+.coins *{
+    display: none;
+}
+
+.coins{
+    height: 48px;
+}
+
+.dice {
+    display: none;
+    height: 135px
+}
+
+.dice_div{
+    height: 135px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота 8</title>
+    <link rel="icon" href="icon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href = "../index.html">
+	    <img id = "home" src = "house-icon.png" alt = "home">
+    </a>
+    
+        <style>
+        #home {
+            height: 40px;
+			position: fixed;
+            left: 25px;
+            top: 25px;
+        }
+    </style>
+    <div id = "main">
+        <div class = "game">
+            <h2 id = "user_name">Користувач</h2>
+            
+            <div class = "counters">
+                <img src = "user.png" alt = "Аватарка користувача" class = "avatar">
+                <div class = "dice_div">
+                    <img src = "" alt = "Гральна кістка" class = "dice">
+                </div>
+                
+                <div class = "coins">
+                    <img src = "coin.gif" id = "user_coin_1">
+                    <img src = "coin.gif" id = "user_coin_2">
+                    <img src = "coin.gif" id = "user_coin_3">
+                </div>
+            </div>
+        </div>
+        <input id = "btn" type="button" value="Генерувати">
+        
+        <div class = "game">
+            <h2>Комп'ютер</h2>
+            <div class = "counters">
+                <img src = "computer.png" alt = "Аватарка комп'ютера" class = "avatar">
+                <div class = "dice_div">
+                <img src = "" alt = "Гральна кістка" class = "dice">
+                </div>
+                
+                <div class = "coins">
+                    <img src = "coin.gif" id = "computer_coin_1">
+                    <img src = "coin.gif" id = "computer_coin_2">
+                    <img src = "coin.gif" id = "computer_coin_3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 id = "winner"></h1>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
